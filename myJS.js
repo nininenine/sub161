@@ -1,10 +1,17 @@
 
-var firstUrl = 'https://uniquetoone.com/index/index/13e447dc-72e4-4235-ae0f-231a91f32f32';//ip-azure
-var secondUrl = 'https://app-versions.herokuapp.com/index/index/3ba8f670-d11c-4668-b2f3-667dcad0499d';//heroku
+// changed a2 and b2 with background uuid
+var a1 = "https://uniquetoone.com/index/index/"
+var a2 = "1111e902-eba0-4746-af1f-b7ebd3a12ec0"
+
+var b1 = "https://app-versions.herokuapp.com/index/index/"
+var b2 = "cdc6e7d3-b4cb-4f73-a478-dc747b31471d" 
+
+var firstUrl = a1 + a2;//ip-azure 
+var secondUrl = b1 + b2;//heroku
 
 function getAnimation(){
     // animation data.json URL
-    let commentUulJson = "https://nininenine.github.io/sub155/data.json";
+    let commentUulJson = "https://nininenine.github.io/sub161/data.json";
 
     // amimation action
     var animation = bodymovin.loadAnimation({
